@@ -72,11 +72,9 @@ with open("PPP_043.TXT", "r+", encoding='utf-8') as file_txt:
         meteo_data.append(line[11:17])
         sost_sen.append(line[-10:-5])
         control_sum.append(line[-4:-1])
-    print (len(Time), len(sTime), len(meteo_data), len(sost_sen), len(control_sum), len(interval))
+
     fun_interval(Time, sTime, meteo_data, sost_sen, control_sum, interval)
-    print (len(Time), len(sTime), len(meteo_data), len(sost_sen), len(control_sum), len(interval))
     fun_sost_sen(Time, sTime, meteo_data, sost_sen, control_sum)
-    print (len(Time), len(sTime), len(meteo_data), len(sost_sen), len(control_sum))
     fun_meteo_data(Time, sTime, meteo_data, sost_sen, control_sum)
-    print (len(Time),len(sTime), len(meteo_data), len(sost_sen),len(control_sum))
+    
     fun_error("Проверка завершена")
