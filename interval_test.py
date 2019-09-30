@@ -52,4 +52,4 @@ def fun_interval(
             k -= 1
             count -= 1
 
-    return
+    return None

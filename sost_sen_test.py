@@ -25,4 +25,4 @@ def fun_sost_sen(
             del control_sum[k]
 
         k += 1
-    return
+    return None

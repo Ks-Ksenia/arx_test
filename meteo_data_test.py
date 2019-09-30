@@ -111,4 +111,4 @@ def fun_meteo_data(
                 break
 
             count -= 1
-    return
+    return None
